@@ -1,8 +1,8 @@
 # StoraStenen
-##http://storastenen.com/
+## http://storastenen.com/
 
 
-##Collaborators:
-###Filip Olofsson
-###Alexander Mattsson
-###Niklas Bergholm
+## Collaborators:
+### Filip Olofsson
+### Alexander Mattsson
+### Niklas Bergholm
