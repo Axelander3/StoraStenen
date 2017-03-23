@@ -1,0 +1,59 @@
+body {
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+.navbar-container a {
+	color:#F5CB5C;
+}
+#main-wrapper {
+	background-color: black;
+	width:100vw;
+}
+.navbar-container {
+	width:100vw;
+	height:50px;
+	background-color: #333533;
+	display:flex;
+	justify-content: space-between;
+	text-align:center;
+}
+.home-button {
+	font-size:2em;
+	line-height:1.3em;
+}
+.secondary-button {
+	font-size:1.5em;
+	line-height: 2em;
+	padding-right: 20px;
+	padding-left: 20px;
+	height:40px;
+}
+.secondary-button:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+	margin-top:-7px;
+}
+.secondary-button:hover:after {
+	width: 100%;
+	background: #F5CB5C;
+}
+.home-button-container {
+	width:100px;
+	height:50px;
+	background-image: url(../img/Hemknapp.png);
+	background-position: center;
+	background-size: cover;
+	transition-duration: 0.5s;
+}
+.home-button-container:hover {
+	background-image:url(../img/Hemknapp_hover.png);
+}
