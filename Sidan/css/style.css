@@ -1,22 +1,22 @@
 body {
 	margin:0;
 	font-family: 'Montserrat', sans-serif;
+	background-image: url(../img/background.jpg);
 }
 a {
 	text-decoration: none;
 	color:black;
 }
 .navbar-container a {
-	color:#F5CB5C;
+	color:#B4E7CE;
 }
 #main-wrapper {
-	background-color: black;
 	width:100vw;
 }
 .navbar-container {
 	width:100vw;
 	height:50px;
-	background-color: #333533;
+	background-color: #474A2C;
 	display:flex;
 	justify-content: space-between;
 	text-align:center;
@@ -39,12 +39,12 @@ a {
 	height: 3px;
 	width: 0px;
 	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+	transition: width .3s ease, background-color .3s ease;
 	margin-top:-7px;
 }
 .secondary-button:hover:after {
 	width: 100%;
-	background: #F5CB5C;
+	background: #B4E7CE;
 }
 .home-button-container {
 	width:100px;
@@ -56,4 +56,39 @@ a {
 }
 .home-button-container:hover {
 	background-image:url(../img/Hemknapp_hover.png);
+}
+.news-container {
+	width:50vw;
+	background-color: #59A96A;
+	height:auto;
+	margin: auto;
+	margin-top:100px;
+}
+.title-text {
+	text-align: center;
+	padding-top:20px;
+}
+.news {
+	background-color:#9BDEAC;
+	width:50vw;
+	height:auto;
+	margin:auto;
+	padding-bottom: 20px;
+}
+.news p {
+	padding-left:50px;
+	padding-right: 50px;
+}
+.activities-container {
+	display:flex;
+	justify-content: space-between;
+}
+.more-news {
+	padding-left: 50px;
+	font-size:1.5em;
+	transition-duration: 0.2s;
+
+}
+.more-news:hover {
+	color:rgba(255, 255, 255, 0.7);
 }
