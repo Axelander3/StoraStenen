@@ -5,7 +5,23 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script>
+		function showNews() {
+   			if(document.getElementById("more-news-container").className.includes("additional")) {
+   				document.getElementById("more-news-container").className =
+   				document.getElementById("more-news-container").className.replace('additional', '');
+   			} else {
+   				document.getElementById("more-news-container").className += "additional";
+   			}
 
+			if(document.getElementById("news-toggle").innerHTML == "Fler Nyheter...") {
+   				document.getElementById("news-toggle").innerHTML = "Färre Nyheter..."
+   			} else {
+   				document.getElementById("news-toggle").innerHTML = "Fler Nyheter...";
+   			}
+
+		}
+	</script>
 </head>
 <body>
 	<div id="main-wrapper">
@@ -21,15 +37,43 @@
 			<div class="news">
 				<h2 class="title-text">Anläggningen är öppen året om</h2>
 				<div class="activities-container">
-					<p>Grillstuga/Sovstuga</p>
-					<p>Stora Stenen</p>
-					<p>Jaktstuga</p>
-					<p>Vindskydd/Grillplats</p>
+					<div class="image-and-activities-container"><img src="img/Grillstuga.png" /><p>Grillstuga/Sovstuga</p></div>
+					<div class="image-and-activities-container"><img src="img/Stenen.png" /><p>Stora Stenen</p></div>
+					<div class="image-and-activities-container"><img src="img/Jaktstuga.png" /><p>Jaktstuga</p></div>
+					<div class="image-and-activities-container"><img src="img/Vindskydd.png" /><p>Vindskydd/Grillplats</p></div>
 				</div>
 				<p class="info-text-news">Allt är gratis utom grillstugan/sovstugan. De kan hyras för familjesammankomster, födelsedagar, föreningsmöten mm. Vi ordnar transport vid behov.</p>
 				<p class="info-text-news">Här finns lugn och ro, frisk luft, gratis ved för brasor och aktivitetsanordningar för barnen.</p>
-				<a class="more-news" href="#">Fler nyheter</a>
+				<a class="more-news" href="Javascript:showNews();" id="news-toggle">Fler Nyheter...</a>
 			</div>
+
+			<div id="more-news-container" class="additional">
+				<div class="news" id="more-news">
+					<h2 class="title-text">Alexander is a retard</h2>
+					<p class="info-text-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="news" id="more-news">
+					<h2 class="title-text">Alexander is a retard</h2>
+					<p class="info-text-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="news" id="more-news">
+					<h2 class="title-text">Alexander is a retard</h2>
+					<p class="info-text-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </body>
