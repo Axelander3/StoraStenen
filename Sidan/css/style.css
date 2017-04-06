@@ -75,11 +75,13 @@ a {
 	margin:auto;
 	padding-bottom: 20px;
 }
-.news p {
+.info-text-news {
 	padding-left:50px;
 	padding-right: 50px;
 }
 .activities-container {
+	width:80%;
+	margin:auto;
 	display:flex;
 	justify-content: space-between;
 }
