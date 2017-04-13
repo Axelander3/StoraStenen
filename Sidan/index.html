@@ -7,12 +7,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script>
 		function showNews() {
+
+			var height = $(window).height() - 50;
+			$(".main").height(height);
+
+			window.onresize = function(event) {
+				var height = $(window).height() - 40;
+				$("#main-wrapper").height(height);
+			};
+
    			if(document.getElementById("more-news-container").className.includes("additional")) {
    				document.getElementById("more-news-container").className =
    				document.getElementById("more-news-container").className.replace('additional', '');
    			} else {
    				document.getElementById("more-news-container").className += "additional";
    			}
+
 			if(document.getElementById("news-toggle").innerHTML == "Fler Nyheter...") {
    				document.getElementById("news-toggle").innerHTML = "Färre Nyheter..."
    			} else {
@@ -20,16 +30,18 @@
    			}
 		}
 	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-	<div id="main-wrapper">
-		<div class="navbar-container">
+<div class="navbar-container">
 		<a class="secondary-button" href="gallery.html">Galleri</a>
 			<a class="secondary-button" href="about.html">Om oss</a>
 			<div class="home-button-container"><a class="home-button" href="index.html">Hem</a></div>
 			<a class="secondary-button" href="find.html">Hitta Hit</a>
 			<a class="secondary-button" href="contact.html">Kontakta oss</a>
 		</div>
+	<div id="main-wrapper">
 		<div class="news-container">
 		<h1 class="title-text">Välkommen till Stora Stenen</h1>
 			<div class="news">
@@ -47,7 +59,7 @@
 
 			<div id="more-news-container" class="additional">
 				<div class="news" id="more-news">
-					<h2 class="title-text">Alexander is a retard</h2>
+					<h2 class="title-text">Lorem</h2>
 					<p class="info-text-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -55,7 +67,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<div class="news" id="more-news">
-					<h2 class="title-text">Alexander is a retard</h2>
+					<h2 class="title-text">Lorem</h2>
 					<p class="info-text-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -63,7 +75,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<div class="news" id="more-news">
-					<h2 class="title-text">Alexander is a retard</h2>
+					<h2 class="title-text">Lorem</h2>
 					<p class="info-text-news">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 	eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
