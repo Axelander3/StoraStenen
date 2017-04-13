@@ -1,0 +1,25 @@
+body, html {
+	overflow-x: hidden;
+}
+
+#gallery-body {
+	overflow: hidden;
+	text-align:center;
+	justify-content: space-between;
+	background-color: #9bdeac;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 0px;
+
+
+}
+
+.gallery-img {
+	margin: 2px;
+	border-radius: 5px;
+	height: 250px;
+}
+
+#gallery-img-bild7 {
+	height: 500px;
+}
