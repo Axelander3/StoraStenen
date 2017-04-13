@@ -3,7 +3,7 @@
 
 
 ## Collaborators:
-### Filip Olofsson
-### Alexander Mattsson
-### Niklas Bergholm
+### Filip Olofsson - Index, about, find, contact
+### Alexander Mattsson - Gallery
+### Niklas Bergholm About, find, contact
 ### Elias Edlund
