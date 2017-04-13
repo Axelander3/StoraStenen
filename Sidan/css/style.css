@@ -14,9 +14,6 @@ a {
 .navbar-container a {
 	color:#B4E7CE;
 }
-::-webkit-scrollbar {
-      width: 15px;
-}
 #main-wrapper {
 	width:100%;
 	margin-top:50px;
@@ -71,7 +68,7 @@ a {
 	background-image:url(../img/Hemknapp_hover.png);
 }
 .news-container {
-	width:40vw;
+	width:40%;
 	background-color: #59A96A;
 	height:auto;
 	margin: auto;
@@ -98,7 +95,7 @@ a {
 	width:80%;
 	margin:auto;
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .more-news {
 	padding-left: 50px;
