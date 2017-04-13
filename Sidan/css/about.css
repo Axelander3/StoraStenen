@@ -1,38 +1,17 @@
-.ruta {
- 		margin-top: 10%;
-		margin-left: 25%;
-		margin-right: 25%;
-		border: 5px solid #9BDEAC;
-		border-radius: 5px;
-		background-color: #9BDEAC;
-		color: black;
+.news {
+	display:flex;
+	padding-top:20px;
+}
+.left-info-container {
+	width:50%;
 }
 
-.r {
-		font-size: 22px;
-		font-weight: bold;
-		text-align: center;
-		margin-top: 2%;
-
+.right-info-container {
+	width:50%;
+	text-align:right;
 }
-
-.h {
-		font-size: 20px;
-		text-align: center;
-		margin-top: 2%;
-}
-
-.p {
-		font-size: 18px;
-		text-align: center;
-		margin-top: 2%;
-}
-
-.t{
-		margin-top: 1%;
-}
-
-.list {
-	text-align: center;
-	margin-top: 1%;
+.middle-rectangle {
+	width:5px;
+	height:auto;
+	background-color: #59A96A;
 }
