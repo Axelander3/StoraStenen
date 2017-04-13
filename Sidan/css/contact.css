@@ -1,19 +1,16 @@
-.h{
-text-align: center;
-margin-top: 5%;
-font-size: 17px;
+.news {
+	padding-top: 20px;
 }
-.p{
-text-align: center;
-margin-top: 5%;
-margin-bottom: 5%;
+p, a {
+	padding-left: 20px;
 }
-.ruta{
-margin-top: 10%;
-margin-left: 40%;
-margin-right: 40%;
-border: 5px solid #59A96A;
-border-radius: 10%;
-background-color: #59A96A;
-color: black;
+a:hover {
+	color:rgba(0, 0, 0, 0.6);
+}
+.contact {
+	padding-top:20px;
+	width:auto;
+}
+.contact p {
+	color:black;
 }
