@@ -1,25 +1,21 @@
-body, html {
-	overflow-x: hidden;
-}
-
-#gallery-body {
+.news-container {
 	overflow: hidden;
 	text-align:center;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: #9bdeac;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 0px;
-
-
+	margin:auto;
+	margin-top: 100px;
+	width:72%;
+	margin-bottom: 100px;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .gallery-img {
-	margin: 2px;
-	border-radius: 5px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	margin-left:5px;
+	margin-right: 5px;
 	height: 250px;
-}
-
-#gallery-img-bild7 {
-	height: 500px;
 }
