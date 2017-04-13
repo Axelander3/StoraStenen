@@ -14,9 +14,6 @@ a {
 .navbar-container a {
 	color:#B4E7CE;
 }
-::-webkit-scrollbar {
-      width: 15px;
-}
 #main-wrapper {
 	width:100%;
 	margin-top:50px;
